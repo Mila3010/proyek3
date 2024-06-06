@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Melihat Data Warga')
+@section('title', 'Daftar Warga')
 
 @section('contents')
   <div class="card shadow mb-4">
@@ -9,7 +9,7 @@
     </div>
     <div class="card-body">
 			@if (auth()->user()->level == 'Admin')
-      <a href="{{ route('barang.tambah') }}" class="btn btn-primary mb-3">Melihat Data Warga</a>
+    
 			@endif
       <div class="table-responsive">
         <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">

@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Data Petugas')
+@section('title', 'Profile Petugas')
 
 @section('contents')
   <div class="card shadow mb-4">
@@ -18,7 +18,7 @@
             <thead>
               <tr>
               <i class="fa fa-user" aria-hidden="true"></i>
-                <th>Mila</th>
+                <th>Suci</th>
               </tr>
             </thead>
           <tbody>
